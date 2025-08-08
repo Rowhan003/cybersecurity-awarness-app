@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Simulation - Fake Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <h2>Login Page</h2>
+
+        <!-- Fake login form -->
+        <form id="fakeLoginForm">
+            <label>Username:</label><br>
+            <input type="text" id="username" placeholder="Enter username" required><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" id="password" placeholder="Enter password" required><br><br>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <!-- Warning message after "login" -->
+        <p id="phishingWarning"></p>
+    </div>
+
+    <!-- Linking JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
